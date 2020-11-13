@@ -1,0 +1,42 @@
+html{
+    background-color: mistyrose;
+        }
+    .Projects {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap
+    }
+    .Games {
+        position: relative;
+        margin-top: 20px
+    }
+    .Games img {
+        border: solid;
+        border-width: 5px;
+        border-color: skyblue;
+        border-radius: 10px;
+    }
+    .Games p {
+        text-align: center;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+    .Games:hover p{
+        opacity: 1;
+    }
+    .Games:hover img{
+        opacity: 0.6;
+    }
+    .Headings h1 {
+        text-align: center;
+        font-family: cursive;
+    }
+    .Headings p,h4 {
+        text-align: center;
+
+    }
